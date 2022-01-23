@@ -10,7 +10,7 @@ the sms commands are here made to work with a french operator, you will have to 
 
 To set up this code on a raspberrypi :
 
--change the rc.local file to start the both bash script /n
+-change the rc.local file to start the both bash script 
 -you need to be sure that all the file are in the same directory as descibe in all the code, you may change some line about directory.
 -Need to be sure that all the file are executable (chmod +x programm.py)
 
