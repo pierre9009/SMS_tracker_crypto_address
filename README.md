@@ -8,9 +8,10 @@ By modifying the code you will be able to receive sms alerts of the transaction 
 
 the sms commands are here made to work with a french operator, you will have to find an alternative if you are not with free (operator).
 
+To set up this code on a raspberrypi :
 
-
-
-issue: the start bash file is to start python scripts and restart them every hour because python files eventually die.
+-change the rc.local file to start the both bash script
+-you need to be sure that all the file are in the same directory as descibe in all the code, you may change some line about directory.
+-Need to be sure that all the file are executable (chmod +x programm.py)
 
 
