@@ -1,0 +1,11 @@
+#!/bin/bash
+p=0
+while true:
+do
+	while ((n!=86400))
+	do
+		sleep 1
+		((p+=1))
+	done
+	sudo shutdown -r
+done
